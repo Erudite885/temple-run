@@ -27,7 +27,7 @@ const HotelsMain = () => {
         return <ChatHistory />;
       
       default:
-        return <mainOverview />;
+        return <OverviewMain />;
     }
   };
 

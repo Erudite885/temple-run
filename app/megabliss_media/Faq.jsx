@@ -189,7 +189,8 @@ const Faq = () => {
           </Flex>
 
           {/* Down part */}
-          <Table variant="striped" colorScheme="gray">
+          <Box overflowY="scroll" maxHeight="450px">
+            <Table variant="striped" colorScheme="gray">
             <Thead>
               <Tr>
                 <Th>DATE</Th>
@@ -254,6 +255,7 @@ const Faq = () => {
               </Tr>
             </Tbody>
           </Table>
+          </Box>
         </Box>
       </Flex>
     </Container>
